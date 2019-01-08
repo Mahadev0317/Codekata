@@ -1,8 +1,9 @@
 n=int(input())
-r=n*5
+s=0
 lis=[]
-for i in range(0,r+1,n):
-  lis.append(i)
-for i in range(1,len(lis)-1):
+for i in range(0,5):
+  s+=n
+  lis.append(s)
+for i in range(0,len(lis)-1):
   print(lis[i],end=" ")
 print(lis[len(lis)-1])
