@@ -5,7 +5,6 @@ def check(s):
     if s[i]!=s[i+1]:
       c+=1
   return c
-print(check(s1),check(s2))
 if check(s1)==check(s2):
   print("yes")
 else:
