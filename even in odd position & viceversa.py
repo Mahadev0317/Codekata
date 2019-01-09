@@ -1,3 +1,4 @@
+int(input())
 li=list(map(int,input().split()))
 lis=[]
 for i in range(len(li)):
