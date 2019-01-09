@@ -1,4 +1,4 @@
-#n=int(input())
+n=int(input())
 li=list(map(int,input().split()))
 lis=[0]*10
 for i in range(len(li)):
