@@ -1,0 +1,5 @@
+n=int(input())
+li=list(map(int,input().split()))
+lis=sorted(li)
+l=(len(lis)//2)
+print(lis[l])
