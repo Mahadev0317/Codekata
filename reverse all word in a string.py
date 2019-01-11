@@ -1,0 +1,4 @@
+n=input().split()
+for i in range(len(n)-1):
+  print(n[i][::-1],end=" ")
+print(n[len(n)-1][::-1])
