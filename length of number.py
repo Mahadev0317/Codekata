@@ -1,2 +1,3 @@
 #
 print(len(input()))
+#
