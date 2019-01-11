@@ -1,12 +1,12 @@
 n=input()
-def alpha(x):
-  return x.isalpha()
-def digit(x):
-  return x.isdigit()
 a=0
 d=0
 for i in n:
-  if digit(i):
+  if i.isdigit():
     d+=1
-  elif alpha(i):
-    
+  elif i.isalpha():
+    a+=1
+if a>0 and d>0:
+  print("Yes")
+else:
+  print("No")
