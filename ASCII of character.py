@@ -1,1 +1,2 @@
+#hello
 print(ord(input()))
