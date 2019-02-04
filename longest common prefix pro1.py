@@ -1,8 +1,7 @@
 n=int(input())
 l=[]
 for i in range(n):
-  a=input()
-  l.append(a)
+  l.append(input())
 m=len(min(l,key=len))
 s=''
 f=0
@@ -13,6 +12,7 @@ for i in range(m):
     else:
       print(s)
       f=1
+      break
   else:
     s=s+l[j][i]
   if f==1:
