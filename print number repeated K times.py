@@ -1,4 +1,4 @@
-n,k=map(int,input().split())
+n=list(map(int,input().split()))
 l=list(map(int,input().split()))
 d={}
 for i in l:
@@ -7,5 +7,5 @@ for i in l:
   else:
     d[i]=1
 for key,value in d.items():
-  if value==k:
+  if value==n[len(n)-1]:
     print(key)
