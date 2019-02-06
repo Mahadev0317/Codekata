@@ -4,3 +4,4 @@ lis=[]
 for i in range(n-1):
   lis.append(li[i]|li[i+1])
 print(max(lis))
+#hello
