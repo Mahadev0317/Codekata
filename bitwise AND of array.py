@@ -1,7 +1,6 @@
 n=int(input())
 li=list(map(int,input().split()))
-op=1
-for i in range(n):
-  for j in range(i+1,n):
-    op*=(li[i] & li[j])
-print(op)
+r=li[0]
+for i in range(n-1):
+  r=r&li[i+1]
+print(r)
