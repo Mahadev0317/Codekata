@@ -5,3 +5,4 @@ def fact(n):
   else:
     return n*fact(n-1)
 print(fact(num))
+#
