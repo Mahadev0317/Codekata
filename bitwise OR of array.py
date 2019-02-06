@@ -1,3 +1,6 @@
 n=int(input())
 li=list(map(int,input().split()))
-print(sum(li))
+lis=[]
+for i in range(n-1):
+  lis.append(li[i]|li[i+1])
+print(max(lis))
