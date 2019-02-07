@@ -1,5 +1,8 @@
-d,m,y=map(int,input().split("/"))
-if d in range (1,32) and m in range(1,13) and y in range(1,2100):
-  print("yes")
+d,m,y=input().split("/")
+if len(d)==2 and len(m)==2 and len(y)==4:
+  if int(d) in range (1,32) and int(m) in range(1,13) and int(y) in range(1,2100):
+    print("yes")
+  else:
+    print("no")
 else:
   print("no")
