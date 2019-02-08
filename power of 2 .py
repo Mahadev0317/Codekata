@@ -4,3 +4,4 @@ if (a & (a-1)):
 else:
   print("yes")
 #hello
+#end
