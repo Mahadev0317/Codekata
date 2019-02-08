@@ -1,6 +1,6 @@
 n=int(input())
 li=list(map(int,input().split()))
-d=2
+d=1
 f=0
 while 1:
   for i in li:
