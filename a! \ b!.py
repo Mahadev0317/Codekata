@@ -1,0 +1,7 @@
+x,k=map(int,input().split())
+def fact(n):
+  if n==0 or n==1:
+    return 1
+  else:
+    return n*fact(n-1)
+print(int(fact(x)/fact(k)))
