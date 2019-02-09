@@ -12,3 +12,4 @@ def primefactors(x):
     lis.append(int(x))
 primefactors(x)
 print(*set(lis))
+#end
