@@ -5,7 +5,6 @@ for i in s:
     d[i]+=1
   elif i!=" " and i not in d:
     d[i]=1
-print(d)
 m=max(d.values())
 op=""
 for key,value in d.items():
