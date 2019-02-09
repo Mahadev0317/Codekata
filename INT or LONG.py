@@ -1,5 +1,8 @@
 n=int(input())
-if n in range(-2147483648,2147483648):
+if n in range(-(2**15),(2**15)):
   print("INT")
-else:
+elif n in range(-(2**31),(2**31)):
   print("LONG")
+else:
+  print("LONG LONG")
+#-2,147,483,648
