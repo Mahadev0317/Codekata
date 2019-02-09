@@ -2,7 +2,6 @@ n=input()
 m=input()
 s=n+m
 li=[]
-print(len(s))
 if len(s)==26:
   for i in s:
     if i in li:
