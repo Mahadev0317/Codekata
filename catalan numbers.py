@@ -6,7 +6,12 @@ def catalan(n):
     for i in range(n):
       r+=catalan(i)*catalan(n-i-1)
     return r
+n=int(input())
+if n<=1:
+  n+=1
+else:
+  n=n
 li=[]
-for i in range(int(input())+1):
+for i in range(n):
   li.append(catalan(i))
 print(*li)
