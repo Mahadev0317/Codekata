@@ -7,7 +7,7 @@ def prime(x):
   else:
     return True
 op=0
-for i in range(n,k):
+for i in range(n,k+1):
   c=0
   s=bin(i)[2:]
   for j in s:
