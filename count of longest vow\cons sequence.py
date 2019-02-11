@@ -10,4 +10,4 @@ for i in range(len(li)-1):
     lis.append(c)
     c=1
 lis.append(c)
-print(0 if c==1 else c)
+print(0 if max(lis)==1 else max(lis))
