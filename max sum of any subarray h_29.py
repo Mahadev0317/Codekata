@@ -1,17 +1,17 @@
 n=int(input())
 li=list(map(int,input().split()))
 lis=[]
+neg=[];pos=[]
 for i in li:
   if i<0:
-    lis.append(False)
+    neg.append(i)
   else:
-    lis.append(True)
-c=0
-for i in li:
-  c+=i
-if all(lis):
-  print(c)
-elif max(li)<c:
-  print(c)
-else:
+    pos.append(i)
+neg=sorted(neg,reverse=True)
+print(neg,pos,lis)
+if len(pos)==0:
   print(max(li))
+elif len(neg)==0:
+  print(sum(pos))
+else:
+  print(sum(pos)+neg[0])
