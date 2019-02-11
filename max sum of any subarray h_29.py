@@ -8,7 +8,6 @@ for i in li:
   else:
     pos.append(i)
 neg=sorted(neg,reverse=True)
-print(neg,pos,lis)
 if len(pos)==0:
   print(max(li))
 elif len(neg)==0:
