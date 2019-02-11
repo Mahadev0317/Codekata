@@ -6,7 +6,4 @@ for i in range(k):
   s.insert(0,"0")
 b="".join(s)
 op=int(b,2)
-if op==75:
-  print("{:.2f}".format(op))
-else:
-  print(op)
+print("{:.2f}".format(op))
