@@ -12,7 +12,9 @@ while i<len(li):
   else:
     if c>m:
       m=c
-    i+=1
+      c=0
+    if li[i]!="a":
+      i+=1
     c=0
     f=0
 print(0 if m==1 else m)
