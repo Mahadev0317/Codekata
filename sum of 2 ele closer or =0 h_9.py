@@ -10,7 +10,7 @@ for i in range(0,n-1):
       f=1
     else:
       if abs(li[i]+li[j])<m:
-        m=li[i]+li[j]
+        m=abs(li[i]+li[j])
         a=i
         b=j
   if f==1:
