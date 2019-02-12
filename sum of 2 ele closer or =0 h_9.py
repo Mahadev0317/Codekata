@@ -6,8 +6,8 @@ for i in range(0,n-1):
   for j in range(i+1,n):
     if (li[i]+li[j])==0:
       print(li[i],li[j])
-      break
       f=1
+      break
     else:
       if abs(li[i]+li[j])<m:
         m=abs(li[i]+li[j])
