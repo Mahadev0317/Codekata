@@ -12,19 +12,17 @@ for i in range(n):
     else:
       break
   else:
-    if f==1 and i==0:
-      star.append(li[i])
+    if i==0:
+      st.append(li[i])
     elif f==1 and i!=0:
       st.append(li[i])
     if f==1 or l==1 and i>0:
       for k in range(0,i):
-        if li[i]>li[k]:
-          a=1
-        else:
+        if li[i]<=li[k]:
           break
       else:
         star.append(li[i])
-        a=0
+    l=0
     f=0
 print(*st)
 print(*star)
