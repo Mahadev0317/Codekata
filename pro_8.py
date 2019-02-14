@@ -12,7 +12,6 @@ for i in range(q):
   else:
     g=gcd(li[l-1],li[l])
     for j in range(l+1,r):
-      print(j)
       g=gcd(g,li[j])
     lis.append(g)
 for i in lis:
