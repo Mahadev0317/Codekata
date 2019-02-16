@@ -1,5 +1,5 @@
 n=int(input())
-a=list(input())
+a=list(map(int,input().split()))
 c=1;i=0
 while i<n-1:
   j=i+1
