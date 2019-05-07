@@ -20,3 +20,4 @@ if c1==2 and c2==2:
   print('yes')
 else:
   print('no')
+#
