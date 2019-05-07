@@ -27,3 +27,4 @@ else:
       if out<t:
         out=t
 print(len(s)-out)
+#
