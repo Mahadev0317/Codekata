@@ -22,13 +22,16 @@ int main() {
       y++; }
   }
   for(int i=0;i<w;i++)
+  {
     for(int j=0;j<y;j++)
+    {
       m[k]=abs(a[i],b[j]);
       k++;
+    }}
   for(int i=0;i<k;i++)
     if (i==0)
       min=m[0];
-    else if(arr[i]<min)
-      min=arr[i];
+    else if(m[i]<min)
+      min=m[i];
   std::cout<<min;
 }
