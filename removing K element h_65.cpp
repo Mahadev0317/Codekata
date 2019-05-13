@@ -16,7 +16,10 @@ int main() {
     else
       c++;
     }
-  for(int i=0;i<n-c;i++){
-      std::cout<<op[i]<<" ";
-  }
+  if(n-c!=0){
+    for(int i=0;i<n-c;i++){
+        std::cout<<op[i]<<" ";
+    }}
+  else
+    std::cout<<"empty";
 }
