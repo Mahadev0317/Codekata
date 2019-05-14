@@ -1,6 +1,7 @@
 n,t,k=map(int,input().split())
 arr=list(map(int,input().split()))
 temp=[]
+f=0
 def func(arr):
   if len(arr) == 1:
     return
@@ -15,6 +16,7 @@ func(arr)
 for i in temp:
   if len(i)==t and sum(i)==k:
     f=1
+    break
 else:
   if f==1:
     print("YES")
