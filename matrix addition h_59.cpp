@@ -1,9 +1,6 @@
 #include <iostream>
 #include<cstdlib>
 
-int diff(int x,int y){
-  return(abs(abs(x)-abs(y)));
-}
 int main() {
   int n,k,arr[20],arr2[20],sum[20];
   std::cin>>n;
