@@ -13,4 +13,6 @@ for i in range(2,n):
 if len(temp) is 0:
   print(0)
 else:
-  print(*temp)
+  for i in range(len(temp)-1):
+    print(temp[i],end=" ")
+  print(temp[len(temp)-1])
