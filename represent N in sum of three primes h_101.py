@@ -9,9 +9,9 @@ def prime(x):
 for i in range(2,100):
     if prime(i):
         temp.append(i)
-for i in range(len(temp)-2):
-    for j in range(i+1,len(temp)-1):
-        for k in range(j+1,len(temp)):
+for i in range(len(temp)):
+    for j in range(i,len(temp)):
+        for k in range(j,len(temp)):
             if (temp[i]+temp[j]+temp[k])==n:
                 op.append([temp[i],temp[j],temp[k]])
 print(*op[0])
